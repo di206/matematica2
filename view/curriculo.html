@@ -11,16 +11,25 @@
         </head>
         <body>
             <fieldset>
-                <legend>Curriculo</legend>
+                <legend>Logar no Curriculo</legend>
                 <form action="curriculo.php" method="POST">
-                    Nome Completo:<input type="text" name="" maxlength="10" minlength="5" placeholder="Nome Completo" required>
-                    senha:<input type="password" name="senha" placeholder="senha"required>
-                    telefone:<input type="number"></br>
-                    E-mail:<input type="email"></br>
-                    endereço:<input type="text"></br>
-
-                    <input type="submit" value="Cadastrar">
+                    Usuario:<input type="text" name="usuario" maxlength="10" minlength="5" placeholder="Usuario" required>
+                    Senha: <input type="password" name="senha" placeholder="senha" required>
+                    <input type="submit" value="Logar">
                 </form>
+            </fieldset>
+            <fieldset>
+                <legend>Cadastrar curriculo</legend>
+                <fieldset>
+                    <legend>DADOS PESSOAIS</legend>
+                        Nome Completo:<input type="text"></br>
+                        Telefone:<input type="text"></br>
+                        E-mail:<input type="email"></br>
+                        Endereço:<input type="text"></br>
+                    Data de Nascimento: <input type="date"></br>
+                    Genero: M <input type=""> F <input type=""> OUTROS <input type="">
+                </fieldset>
             </fieldset>
         </body>
     </html>
+
